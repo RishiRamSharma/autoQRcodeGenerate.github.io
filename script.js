@@ -37,7 +37,7 @@ window.onload = function() {
      document.body.style.backgroundImage = `url(${imgs[random]})`;
 }
 function myconfirm() {
-     alert("This QR code generator application is used to share our information quickly. Through this, we can share any lengthy link of a webpage or text data (nearly 90 words) through mobile or another scanner device.Simply write a text or paste any link in input box. The QR Code Generator automatically generate the QR Code of that link/ text.Now click on the green button.It auto generate the QR Code.Now scan this QR and you can see the inputs data in your mobile or her device.");
+     alert("This QR code generator application is used to share our information quickly. Through this, we can share any lengthy link of a webpage or text data (nearly 90 words) through mobile or another scanner device.Simply write a text or paste any link in input box. The QR Code Generator automatically generate the QR Code of that link/ text.Now click on the green button.It auto generate the QR Code.Now scan this QR and you can see the inputs data in your mobile or other device.");
 
 
 
