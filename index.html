@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
@@ -7,15 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR code generator</title>
 </head>
+
 <body>
+
     <div class="wrapper" class="wrapper.active">
         <header>
-            <h1>QR Code Generator</h1>
+            <h1> QR Code Generator <button class="note"
+                    style="cursor: pointer; background-color:none; border: 2px solid #008CBA;  padding: 5px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 18px; margin-left: 4px; transition-duration: 0.4s; border-radius: 4px;"
+                    onclick="myconfirm()">Note!</button>
+            </h1>
             <p>Paste a url or enter text to create QR code</p>
         </header>
         <div class="form">
             <input type="text" placeholder="Enter text or url">
-            <button>Generate QR Code</button>
+            <button>Generate QR Code
+
+
+
+            </button>
         </div>
         <div class="qr-code">
             <img src="" alt="qr-code" style="  width: 180px; height: 180px;">
@@ -24,4 +34,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
