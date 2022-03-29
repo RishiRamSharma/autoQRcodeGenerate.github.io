@@ -36,3 +36,6 @@ window.onload = function() {
      const random = Math.floor(Math.random()*imgs.length);
      document.body.style.backgroundImage = `url(${imgs[random]})`;
 }
+function myconfirm() {
+     alert("This QR code generator application is used to share our information quickly. Through this, we can share any lengthy link of a webpage or text data (nearly 90 words) through mobile or another scanner device ");
+}
